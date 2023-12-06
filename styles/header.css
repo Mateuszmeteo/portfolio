@@ -4,6 +4,34 @@
 
 .head-aside {
     background-color: beige;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    /* background-image: url('./../assets/IMG_3933.jpg'); */
+    width: 160px;
+    height: 213px;
+    
+    /* border: solid 1px black; */
+    /* object-fit: contain; */
+
+}
+.logo-img {
+    /* aspect ratio 3:4 */
+    /* https://www.omnicalculator.com/other/resolution-scale */
+    /* 200/267
+    160/213 */
+    width: inherit;
+    height: inherit;
+
+    /* object-fit: cover; */
+
+    border-radius: 20px;
+    
 }
 
 .head-section {

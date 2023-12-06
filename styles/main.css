@@ -8,7 +8,10 @@
     display: flex;
 }
 
-
+.list-style {
+    list-style:lower-greek;
+    padding-left: 30px ;
+}
 
 
 
@@ -25,7 +28,35 @@
 }
 
 
+/* ///// headers //////  */
 
+.head-three-aside {
+    /* padding-left: 10px; */
+    border-bottom: 1px solid black;
+}
+
+.head-three-main {
+    padding-left: 20px;
+    border-bottom: 1px solid black;
+}
+
+.head-four {
+    padding-left: 20px;
+}
+
+/* ///// end of headers //////  */
+
+
+.list-link-flex {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+/* .list-link-flex > a {
+    margin-right: 30px;
+} */
 
 
 
