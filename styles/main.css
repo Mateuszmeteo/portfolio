@@ -1,0 +1,38 @@
+
+
+.main-aside {
+    background-color: burlywood;
+}
+
+.interest-list > li {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////// */
+
+.main-section {
+    background-color: chocolate;
+}
+
+
+
+
+
+
+
+
+
+.duration-list {
+    display: flex;
+    justify-content: space-between;
+}
