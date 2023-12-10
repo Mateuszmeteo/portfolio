@@ -3,7 +3,11 @@
 
 
 .head-aside {
-    background-color: beige;
+    /* background-color: beige; */
+    /* background-color: rgb(172, 148, 118); */
+    /* background-color: rgba(184, 157, 124, 0.8); */
+
+    /* border: 0.5px solid rgba(184, 157, 124, 0.8) ; */
 
     display: flex;
     justify-content: center;
@@ -13,8 +17,8 @@
 
 .logo {
     /* background-image: url('./../assets/IMG_3933.jpg'); */
-    width: 160px;
-    height: 213px;
+    width: 180px;
+    height: 240px;
     
     /* border: solid 1px black; */
     /* object-fit: contain; */
@@ -23,7 +27,7 @@
 .logo-img {
     /* aspect ratio 3:4 */
     /* https://www.omnicalculator.com/other/resolution-scale */
-    /* 200/267
+    /* 200/267  180/240
     160/213 */
     width: inherit;
     height: inherit;
@@ -35,6 +39,32 @@
 }
 
 .head-section {
-    background-color:cadetblue;
+    /* background-color:cadetblue; */
+}
+
+.title {
+    margin-bottom: 10px;
+
+}
+.subtitle {
+    border-bottom: 1px solid black;
+    width: 40%;
+    padding-bottom: 5px;
+    
+
+    margin-bottom: 8px;
+
+    font-size: 16px;
+
+}
+.tech-title {
+    font-size: 12px;
+    margin-bottom: 15px;
+
+    color: darkgrey;
+}
+.about {
+    font-size: 12px;
+    text-align: justify;
 }
 

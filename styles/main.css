@@ -1,7 +1,27 @@
 
 
 .main-aside {
-    background-color: burlywood;
+    /* background-color: burlywood; */
+}
+
+.aside-nav {
+    font-size: 12px;
+}
+
+.aside-nav-list-el {
+    /* background-color:aquamarine ; */
+
+    margin: 10px 0;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .interest-list > li {
@@ -10,7 +30,7 @@
 
 .list-style {
     list-style:lower-greek;
-    padding-left: 30px ;
+    padding-left: 60px ;
 }
 
 
@@ -24,7 +44,7 @@
 /* //////////////////////////////////////////////////////////// */
 
 .main-section {
-    background-color: chocolate;
+    /* background-color: chocolate; */
 }
 
 
@@ -33,14 +53,25 @@
 .head-three-aside {
     /* padding-left: 10px; */
     border-bottom: 1px solid black;
+    padding-bottom: 5px;
+
+
+    font-size: 20px;
 }
 
 .head-three-main {
     padding-left: 20px;
+    padding-bottom: 5px;
+
     border-bottom: 1px solid black;
+    
+    font-size: 20px;
 }
 
 .head-four {
+    padding-left: 20px;
+}
+.head-five {
     padding-left: 20px;
 }
 
