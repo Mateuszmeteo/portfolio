@@ -1,3 +1,4 @@
+/* /////////////////// MAIN aside-section ///////////////////////////////////////// */
 
 
 .main-aside {
@@ -5,13 +6,13 @@
 }
 
 .aside-nav {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .aside-nav-list-el {
     /* background-color:aquamarine ; */
 
-    margin: 10px 0;
+    margin: 14px 0;
 
 }
 
@@ -24,8 +25,135 @@
     gap: 20px;
 }
 
+.head-three-aside {
+    
+    border-bottom: 1px solid black;
+    width: 85%;
+
+
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+
+    /* font-size: 18px; */
+    /* letter-spacing: 2px; */
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    
+}
+.head-three-aside-el {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
+.aside-technical {
+    /* background-color: rgba(245, 219, 187, 0.3); */
+    /* background-color: rgba(169, 169, 169, 0.1); */
+    border-radius: 6px;
+
+}
+.aside-technical-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.aside-technical-list {
+    width: 90%;
+}
+
+.tech-scale {
+    display: flex;
+
+    margin-bottom: 5px;
+}
+
+.tech-scale-one {
+    /* background-color: red; */
+    width: 33%;
+    height: 10px;
+    border-left: solid 1px black;
+}
+.tech-scale-two {
+    width: 33%;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    /* background-color: blue; */
+    
+}
+
+/* //////////  diagram //////////   */
+
+.tech-diagram {
+    width: 100%;
+    height: 6px;
+
+    border: 1px solid black;
+    
+    margin-top: 2px;
+    margin-bottom: 10px;
+
+}
+
+.scale {
+    background-color: brown;
+    height: 100%;
+}
+
+/* ////// skills scales /////////////////  */
+
+.scale-html {
+    width: 80%;
+}
+
+.scale-css {
+    width: 60%;
+}
+.scale-sass {
+    width: 50%;
+}
+.scale-js {
+    width: 60%;
+}
+.scale-react {
+    width: 60%;
+}
+.scale-node {
+    width: 60%;
+}
+.scale-vsc {
+    width: 60%;
+}
+.scale-git {
+    width: 60%;
+}
+.scale-github {
+    width: 60%;
+}
+.scale-rest {
+    width: 60%;
+}
+.scale-rwd {
+    width: 60%;
+}
+
+
+/* ////// end of skills scales diagrams /////////////////  */
+
+
+
+
+
+
 .interest-list > li {
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .list-style {
@@ -40,8 +168,24 @@
 
 
 
+.soft-skills-list {
+    font-size: 16px;   
 
-/* //////////////////////////////////////////////////////////// */
+}
+.soft-skills-list-el {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3px;
+}
+
+
+
+
+
+
+/* ///////////////////  end of MAIN aside-section ///////////////////////////////////////// */
+/* /////////////////// MAIN main-section ///////////////////////////////////////// */
 
 .main-section {
     /* background-color: chocolate; */
@@ -50,14 +194,7 @@
 
 /* ///// headers //////  */
 
-.head-three-aside {
-    /* padding-left: 10px; */
-    border-bottom: 1px solid black;
-    padding-bottom: 5px;
 
-
-    font-size: 20px;
-}
 
 .head-three-main {
     padding-left: 20px;
@@ -70,6 +207,7 @@
 
 .head-four {
     padding-left: 20px;
+    letter-spacing: 2px;
 }
 .head-five {
     padding-left: 20px;

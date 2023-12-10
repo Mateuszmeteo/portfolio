@@ -14,12 +14,12 @@ ul {
 p {
     margin: 0;
 }
-h1 {
+h1, h2, h3 {
     margin: 0;
 }
-h2 {
+/* h2 {
     margin: 0;
-}
+} */
 h5 {
     margin: 0;
     text-decoration:underline;
