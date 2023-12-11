@@ -1,0 +1,23 @@
+
+
+.footer-section {
+    background-color:rgb(54, 5, 5);
+    
+    height: 80px;
+
+    color: #FFF;
+}
+
+.cont-div {
+    height: 100%;
+
+    
+}
+
+.footer-div {
+    /* background-color: beige; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

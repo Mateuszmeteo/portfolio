@@ -146,8 +146,41 @@
 /* ////// end of skills scales diagrams /////////////////  */
 
 
+/* ///////////  others //////////   */
 
 
+.others-list {
+
+    /* background-color:aquamarine; */
+    padding-left: 20px;
+    position: relative;
+
+
+}
+.others-list > li {
+    display: flex;
+    align-items:center;
+
+}
+
+.others-list > li::after {
+    content: '';
+    position: absolute;
+
+    width: 6px;
+    height: 6px;
+
+    /* background-color: brown; */
+    border: 1px solid brown;
+
+    left: 0;
+
+
+
+}
+
+
+/* /////////// interest ////////////   */
 
 
 .interest-list > li {
@@ -210,17 +243,40 @@
     letter-spacing: 2px;
 }
 .head-five {
+    margin-top: 20px;
     padding-left: 20px;
+    font-size: 15px;
+}
+
+.head-six {
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 /* ///// end of headers //////  */
 
+.main-subtitle {
+    font-size: 13px;
+}
+.main-tech {
+    margin-top: 4px;
+    margin-bottom: 2px;
+    color: darkgray;
+    font-size: 14px;
 
+}
+.main-article {
+
+}
 .list-link-flex {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     gap: 30px;
+}
+.list-link-flex > a {
+    text-decoration: none;
+    color: brown;
 }
 
 /* .list-link-flex > a {
@@ -235,4 +291,5 @@
 .duration-list {
     display: flex;
     justify-content: space-between;
+    color:cadetblue;
 }
