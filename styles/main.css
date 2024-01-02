@@ -108,40 +108,45 @@
 /* ////// skills scales /////////////////  */
 
 .scale-html {
-    width: 80%;
+    width: 100%;
 }
 
 .scale-css {
-    width: 60%;
+    width: 95%;
 }
 .scale-sass {
-    width: 50%;
+    width: 95%;
 }
 .scale-js {
-    width: 60%;
+    width: 80%;
 }
 .scale-react {
-    width: 60%;
+    width: 80%;
 }
 .scale-node {
     width: 60%;
 }
 .scale-vsc {
-    width: 60%;
+    width: 100%;
 }
 .scale-git {
     width: 60%;
 }
 .scale-github {
-    width: 60%;
+    width: 80%;
 }
 .scale-rest {
-    width: 60%;
+    width: 80%;
 }
 .scale-rwd {
-    width: 60%;
+    width: 100%;
 }
-
+.scale-wp {
+    width: 90%;
+}
+.scale-bs {
+    width: 80%;
+}
 
 /* ////// end of skills scales diagrams /////////////////  */
 
